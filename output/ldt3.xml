@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LabReport sourceFormat="LDT3">
+  <Patient>
+    <FamilyName>Mustermann</FamilyName>
+    <GivenName>Max</GivenName>
+    <BirthDateDDMMYYYY>01011985</BirthDateDDMMYYYY>
+  </Patient>
+  <Observation>
+    <TestCode>GLUC</TestCode>
+    <TestName>Glucose</TestName>
+    <Value>120</Value>
+    <Unit>mg/dL</Unit>
+  </Observation>
+</LabReport>
