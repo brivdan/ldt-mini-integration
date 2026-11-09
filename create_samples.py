@@ -8,7 +8,7 @@ def write(name, items):
     (ROOT / name).write_bytes(b''.join(encode_field(*item) for item in items))
 
 patient = [('3101','Mustermann'), ('3102','Max'), ('3103','01011985')]
-observation = [('8410','GLUC'), ('8411','Glucose'), ('8420','95'), ('8421','mg/dL')]
+observation = [('8410','GLUC'), ('8411','Glucose'), ('8420','120'), ('8421','mg/dL')]
 write('ldt2_demo.ldt', [('8000','8205'), *patient, *observation])
 write('ldt3_demo.ldt', [
     ('8000','8205'),
